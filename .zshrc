@@ -121,7 +121,7 @@ alias bimp="beet import"
 alias bimpf="beet import --set favorite=1"
 alias bls="beet ls"
 alias bmod="beet modify"
-alias gdf="git --git-dir=/Users/leonardo/dotfiles --work-tree=/Users/leonardo" 
+alias gdf="git --git-dir=/Users/leonardo/Documents/GitlabRepos/dotfiles --work-tree=/Users/leonardo" 
 
 #for flex:
 export PATH="/usr/local/opt/flex/bin:$PATH"
