@@ -1,0 +1,224 @@
+import started Mon Jun 22 12:34:51 2020
+import started Mon Jun 22 13:07:47 2020
+import started Wed Jun 24 14:05:15 2020
+import started Wed Jun 24 14:08:23 2020
+import started Thu Jun 25 13:19:21 2020
+import started Thu Jun 25 13:20:48 2020
+import started Thu Jun 25 13:22:55 2020
+import started Fri Jun 26 13:20:17 2020
+import started Fri Jun 26 13:22:59 2020
+import started Fri Jun 26 13:24:34 2020
+import started Fri Jun 26 13:25:55 2020
+import started Fri Jun 26 13:59:44 2020
+import started Fri Jun 26 14:01:24 2020
+duplicate-skip /Users/leonardo/Music/Library/Artists/Aurora/Singles/Walking In The Air
+import started Fri Jun 26 14:01:55 2020
+duplicate-skip /Users/leonardo/Music/Library/Favorites/Aurora/All My Demons Greeting Me As A Friend
+duplicate-skip /Users/leonardo/Music/Library/Favorites/Aurora/Infections Of A Different Kind (step I)
+import started Fri Jun 26 14:08:01 2020
+import started Fri Jun 26 14:09:36 2020
+import started Fri Jun 26 14:11:40 2020
+import started Fri Jun 26 14:12:47 2020
+import started Fri Jun 26 14:13:47 2020
+import started Fri Jun 26 14:20:42 2020
+asis /Users/leonardo/Music/Library/Artists/Hiromi/Alive
+import started Fri Jun 26 14:29:54 2020
+skip /Volumes/InternalHD/Music/Favourites/John Mayer/Where the Light Is - Live in LA
+import started Sat Jun 27 20:27:38 2020
+import started Sat Jun 27 20:31:13 2020
+import started Sat Jun 27 20:35:15 2020
+import started Sat Jun 27 20:37:32 2020
+skip /Volumes/InternalHD/Music/Old Library/Hiromi/Spiral
+import started Sat Jun 27 20:47:03 2020
+import started Sat Jun 27 21:08:16 2020
+import started Sat Jun 27 21:11:25 2020
+skip /Volumes/InternalHD/Music/Old Library/Jamiroquai/A Funk Odyssey
+import started Sat Jun 27 21:12:07 2020
+duplicate-replace /Volumes/InternalHD/Music/Old Library/Jamiroquai/A Funk Odyssey
+import started Sat Jun 27 21:14:43 2020
+import started Sat Jun 27 21:18:35 2020
+skip /Volumes/InternalHD/Music/Old Library/Snarky Puppy/Ground Up
+import started Sat Jun 27 21:24:41 2020
+import started Sat Jun 27 21:26:12 2020
+skip /Volumes/InternalHD/Music/Old Library/Tenacious D/Tenacious D
+import started Sat Jun 27 21:31:11 2020
+import started Sat Jun 27 21:35:36 2020
+asis /Volumes/InternalHD/Music/Old Library/Tenacious D/Tenacious D
+import started Sat Jun 27 23:10:16 2020
+skip /Volumes/InternalHD/Music/Old Library/Radiohead/B-Sides
+skip /Volumes/InternalHD/Music/Old Library/Radiohead/The King Of Limbs
+import started Sun Jun 28 01:53:42 2020
+import started Sun Jun 28 01:55:51 2020
+import started Sun Jun 28 01:58:37 2020
+import started Sun Jun 28 02:03:27 2020
+import started Sun Jun 28 13:10:33 2020
+skip /Volumes/InternalHD/Music/Old Library/Red Hot Chili Peppers/Californication
+duplicate-keep /Volumes/InternalHD/Music/Old Library/Red Hot Chili Peppers/Stadium Arcadium (Mars)
+import started Sun Jun 28 13:21:21 2020
+skip /Volumes/InternalHD/Music/Old Library/Red Hot Chili Peppers/Californication
+import started Sun Jun 28 13:33:20 2020
+skip /Volumes/InternalHD/Music/Old Library/Red Hot Chili Peppers/Californication/Red Hot Chili Peppers - Californication - 01 Around The World.mp3; /Volumes/InternalHD/Music/Old Library/Red Hot Chili Peppers/Californication/Red Hot Chili Peppers - Californication - 02 Parallel Universe.mp3; /Volumes/InternalHD/Music/Old Library/Red Hot Chili Peppers/Californication/Red Hot Chili Peppers - Californication - 03 Scar Tissue.mp3; /Volumes/InternalHD/Music/Old Library/Red Hot Chili Peppers/Californication/Red Hot Chili Peppers - Californication - 04 Otherside.mp3; /Volumes/InternalHD/Music/Old Library/Red Hot Chili Peppers/Californication/Red Hot Chili Peppers - Californication - 05 Get On Top.mp3; /Volumes/InternalHD/Music/Old Library/Red Hot Chili Peppers/Californication/Red Hot Chili Peppers - Californication - 06 Californication.mp3; /Volumes/InternalHD/Music/Old Library/Red Hot Chili Peppers/Californication/Red Hot Chili Peppers - Californication - 07 Easily.mp3; /Volumes/InternalHD/Music/Old Library/Red Hot Chili Peppers/Californication/Red Hot Chili Peppers - Californication - 08 Porcelain.mp3; /Volumes/InternalHD/Music/Old Library/Red Hot Chili Peppers/Californication/Red Hot Chili Peppers - Californication - 09 Emit Remmus.mp3; /Volumes/InternalHD/Music/Old Library/Red Hot Chili Peppers/Californication/Red Hot Chili Peppers - Californication - 10 I Like Dirt.mp3; /Volumes/InternalHD/Music/Old Library/Red Hot Chili Peppers/Californication/Red Hot Chili Peppers - Californication - 11 This Velvet Glove.mp3; /Volumes/InternalHD/Music/Old Library/Red Hot Chili Peppers/Californication/Red Hot Chili Peppers - Californication - 12 Savior.mp3; /Volumes/InternalHD/Music/Old Library/Red Hot Chili Peppers/Californication/Red Hot Chili Peppers - Californication - 13 Purple Stain.mp3; /Volumes/InternalHD/Music/Old Library/Red Hot Chili Peppers/Californication/Red Hot Chili Peppers - Californication - 14 Right On Time.mp3; /Volumes/InternalHD/Music/Old Library/Red Hot Chili Peppers/Californication/Red Hot Chili Peppers - Californication - 15 Road Trippin'.mp3
+import started Sun Jun 28 13:36:57 2020
+skip /Volumes/InternalHD/Music/Old Library/Red Hot Chili Peppers/Californication
+import started Sun Jun 28 13:38:15 2020
+import started Sun Jun 28 13:44:54 2020
+skip /Volumes/InternalHD/Music/Old Library/Tenacious D/Tenacious D
+import started Sun Jun 28 13:46:07 2020
+import started Sun Jun 28 13:47:14 2020
+import started Sun Jun 28 13:49:34 2020
+skip /Volumes/InternalHD/Music/Old Library/Hiromi/Spiral
+import started Sun Jun 28 13:55:03 2020
+import started Sun Jun 28 13:57:21 2020
+import started Sun Jun 28 14:00:37 2020
+import started Sun Jun 28 15:04:59 2020
+import started Sun Jun 28 15:24:16 2020
+skip /Volumes/InternalHD/Music/Old Library/Last/A Funk Odyssey
+import started Sun Jun 28 15:26:05 2020
+skip /Volumes/InternalHD/Music/Old Library/Last/A Funk Odyssey
+import started Sun Jun 28 15:30:20 2020
+import started Sun Jun 28 15:35:10 2020
+duplicate-replace /Users/leonardo/Downloads/Radiohead Albums [FLAC]/2011 - The King Of Limbs
+import started Sun Jun 28 15:36:28 2020
+duplicate-replace /Users/leonardo/Downloads/Red Hot Chili Peppers - Discography (1984-2006) [FLAC]/(2003) Red Hot Chili Peppers - Greatest Hits [FLAC]
+import started Sun Jun 28 17:02:58 2020
+import started Sun Jun 28 17:04:13 2020
+import started Sun Jun 28 17:06:41 2020
+import started Sun Jun 28 17:09:01 2020
+import started Sun Jun 28 17:12:45 2020
+import started Sun Jun 28 17:13:20 2020
+import started Sun Jun 28 18:11:47 2020
+duplicate-keep /Volumes/InternalHD/Music/Old Library/College EP
+import started Sun Jun 28 18:24:07 2020
+import started Sun Jun 28 18:27:17 2020
+duplicate-keep /Volumes/InternalHD/Music/Old Library/Behind The Sun (Ben Grosse Remix).mp3
+import started Sun Jun 28 18:40:43 2020
+import started Sun Jun 28 19:06:09 2020
+import started Sun Jun 28 19:07:53 2020
+skip /Volumes/InternalHD/Music/Old Library/Hiromi/Beyond Standard
+import started Sun Jun 28 19:28:34 2020
+import started Sun Jun 28 19:35:35 2020
+import started Sun Jun 28 22:25:24 2020
+import started Sun Jun 28 22:27:45 2020
+import started Sun Jun 28 22:30:51 2020
+import started Sun Jun 28 22:38:59 2020
+import started Sun Jun 28 22:45:59 2020
+import started Sun Jun 28 22:50:48 2020
+import started Sun Jun 28 22:54:44 2020
+duplicate-replace /Volumes/InternalHD/Music/Old Library/Red hot chili peppers/One hot minute
+import started Sun Jun 28 22:58:49 2020
+skip /Volumes/InternalHD/Music/Old Library/Red hot chili peppers/Singles/By the way
+import started Sun Jun 28 23:01:30 2020
+import started Sun Jun 28 23:07:52 2020
+duplicate-skip /Volumes/InternalHD/Music/Old Library/Red hot chili peppers/Singles/By the way
+import started Sun Jun 28 23:08:40 2020
+skip /Volumes/InternalHD/Music/Old Library/Red hot chili peppers/Singles/By the way
+import started Sun Jun 28 23:09:29 2020
+skip /Volumes/InternalHD/Music/Old Library/Red hot chili peppers/Singles/By the way; /Volumes/InternalHD/Music/Library/Artists/Red Hot Chili Peppers/By The Way/Red Hot Chili Peppers - By The Way - 01 By The Way.mp3; /Volumes/InternalHD/Music/Library/Artists/Red Hot Chili Peppers/By The Way/Red Hot Chili Peppers - By The Way - 02 Universally Speaking.mp3; /Volumes/InternalHD/Music/Library/Artists/Red Hot Chili Peppers/By The Way/Red Hot Chili Peppers - By The Way - 03 This Is The Place.mp3; /Volumes/InternalHD/Music/Library/Artists/Red Hot Chili Peppers/By The Way/Red Hot Chili Peppers - By The Way - 04 Dosed.mp3; /Volumes/InternalHD/Music/Library/Artists/Red Hot Chili Peppers/By The Way/Red Hot Chili Peppers - By The Way - 05 Don’t Forget Me.mp3; /Volumes/InternalHD/Music/Library/Artists/Red Hot Chili Peppers/By The Way/Red Hot Chili Peppers - By The Way - 06 The Zephyr Song.mp3; /Volumes/InternalHD/Music/Library/Artists/Red Hot Chili Peppers/By The Way/Red Hot Chili Peppers - By The Way - 07 Can’t Stop.mp3; /Volumes/InternalHD/Music/Library/Artists/Red Hot Chili Peppers/By The Way/Red Hot Chili Peppers - By The Way - 08 I Could Die For You.mp3; /Volumes/InternalHD/Music/Library/Artists/Red Hot Chili Peppers/By The Way/Red Hot Chili Peppers - By The Way - 09 Midnight.mp3; /Volumes/InternalHD/Music/Library/Artists/Red Hot Chili Peppers/By The Way/Red Hot Chili Peppers - By The Way - 10 Throw Away Your Television.mp3; /Volumes/InternalHD/Music/Library/Artists/Red Hot Chili Peppers/By The Way/Red Hot Chili Peppers - By The Way - 11 Cabron.mp3; /Volumes/InternalHD/Music/Library/Artists/Red Hot Chili Peppers/By The Way/Red Hot Chili Peppers - By The Way - 12 Tear.mp3; /Volumes/InternalHD/Music/Library/Artists/Red Hot Chili Peppers/By The Way/Red Hot Chili Peppers - By The Way - 13 On Mercury.mp3; /Volumes/InternalHD/Music/Library/Artists/Red Hot Chili Peppers/By The Way/Red Hot Chili Peppers - By The Way - 14 Minor Thing.mp3; /Volumes/InternalHD/Music/Library/Artists/Red Hot Chili Peppers/By The Way/Red Hot Chili Peppers - By The Way - 15 Warm Tape.mp3; /Volumes/InternalHD/Music/Library/Artists/Red Hot Chili Peppers/By The Way/Red Hot Chili Peppers - By The Way - 16 Venice Queen.mp3; /Volumes/InternalHD/Music/Library/Artists/Red Hot Chili Peppers/By The Way/Red Hot Chili Peppers - By The Way - 17 Runaway.mp3; /Volumes/InternalHD/Music/Library/Artists/Red Hot Chili Peppers/By The Way/Red Hot Chili Peppers - By The Way - 18 Bicycle Song.mp3
+import started Sun Jun 28 23:11:04 2020
+skip /Volumes/InternalHD/Music/Old Library/Red hot chili peppers/Singles/By the way
+import started Sun Jun 28 23:14:32 2020
+skip /Volumes/InternalHD/Music/Old Library/Red hot chili peppers/Singles/Fortune Faded
+import started Sun Jun 28 23:16:55 2020
+import started Sun Jun 28 23:18:56 2020
+import started Sun Jun 28 23:23:00 2020
+import started Sun Jun 28 23:26:18 2020
+import started Sun Jun 28 23:28:31 2020
+import started Sun Jun 28 23:32:00 2020
+skip /Volumes/InternalHD/Music/Old Library/Red hot chili peppers/Singles/Warped
+import started Sun Jun 28 23:33:33 2020
+import started Sun Jun 28 23:34:55 2020
+import started Mon Jun 29 00:01:56 2020
+duplicate-keep /Volumes/InternalHD/Music/Old Library/Red hot chili peppers/Red Hot Chili Peppers - Greatest Hits - 15 Fortune Faded.flac
+import started Mon Jun 29 00:06:43 2020
+duplicate-keep /Volumes/InternalHD/Music/Old Library/Red hot chili peppers/Red Hot Chili Peppers - Californication - 03 Scar Tissue.mp3
+import started Mon Jun 29 00:11:57 2020
+duplicate-keep /Volumes/InternalHD/Music/Old Library/Red hot chili peppers/Red Hot Chili Peppers - Stadium Arcadium - 02.02 Tell Me Baby.mp3
+import started Mon Jun 29 00:16:47 2020
+duplicate-keep /Volumes/InternalHD/Music/Old Library/Red hot chili peppers/Red Hot Chili Peppers - By The Way - 02 Universally Speaking.mp3
+import started Mon Jun 29 00:25:56 2020
+duplicate-keep /Volumes/InternalHD/Music/Old Library/Red hot chili peppers
+import started Mon Jun 29 00:30:17 2020
+duplicate-keep /Volumes/InternalHD/Music/Old Library/Red hot chili peppers
+import started Mon Jun 29 00:46:55 2020
+import started Mon Jun 29 00:49:38 2020
+import started Tue Jun 30 00:34:55 2020
+import started Tue Jun 30 00:41:52 2020
+import started Tue Jun 30 00:53:05 2020
+import started Tue Jun 30 01:02:25 2020
+import started Tue Jun 30 01:04:17 2020
+import started Tue Jun 30 01:09:47 2020
+import started Tue Jun 30 01:14:59 2020
+import started Tue Jun 30 01:16:15 2020
+duplicate-replace /Users/leonardo/Downloads/AURORA Discography (2014-2020) (FLAC)/EPs/2015.05.04 - Running with the Wolves - EP [00602547217585]
+import started Tue Jun 30 01:17:40 2020
+duplicate-replace /Users/leonardo/Downloads/AURORA Discography (2014-2020) (FLAC)/Albums/2016.03.11 - All My Demons Greeting Me As a Friend (Deluxe Edition) [EU - 473792]
+duplicate-replace /Users/leonardo/Downloads/AURORA Discography (2014-2020) (FLAC)/Albums/2018.09.28 - Infections of a Different Kind (Step I) [00602567946946]
+duplicate-replace /Users/leonardo/Downloads/AURORA Discography (2014-2020) (FLAC)/Albums/2019.06.07 - A Different Kind of Human (Step II) [EU - 7757151]
+import started Tue Jun 30 01:23:02 2020
+duplicate-replace /Users/leonardo/Downloads/AURORA Discography (2014-2020) (FLAC)/Singles/2015.12.22 - Walking in the Air - Single [none]
+import started Mon Jul  6 12:32:52 2020
+duplicate-replace /Users/leonardo/Downloads/Bjork - Debut - 1993 [EAC - FLAC] (oan)
+import started Mon Jul  6 12:41:56 2020
+import started Mon Jul  6 12:47:42 2020
+duplicate-replace /Users/leonardo/Downloads/Bjork - Post [flac]
+import started Mon Jul  6 14:16:34 2020
+duplicate-replace /Users/leonardo/Downloads/2020 Fiona Apple - Fetch the Bolt Cutters [FLAC]
+import started Mon Jul  6 14:21:05 2020
+import started Mon Jul  6 14:29:03 2020
+import started Mon Jul  6 14:33:57 2020
+import started Mon Jul  6 14:48:55 2020
+import started Mon Jul  6 14:54:44 2020
+import started Mon Jul  6 14:58:23 2020
+import started Mon Jul  6 16:04:19 2020
+import started Mon Jul  6 16:10:13 2020
+import started Mon Jul  6 18:42:21 2020
+import started Mon Jul  6 19:03:25 2020
+import started Mon Jul  6 19:53:08 2020
+import started Mon Jul  6 20:36:13 2020
+import started Mon Jul  6 21:44:04 2020
+import started Tue Jul  7 00:05:56 2020
+import started Tue Jul  7 00:14:04 2020
+skip /Users/leonardo/Downloads/Coldplay - Discography [FLAC]/Albums/2000 - Parachutes (2CD Special Edition) [FLAC]/Coldplay - Trouble - Norvegian Live EP - 2001 - FLAC
+skip /Users/leonardo/Downloads/Coldplay - Discography [FLAC]/Albums/2005 - X&Y (Japanese Special Edition) [FLAC]/Bonus Disc
+import started Tue Jul  7 00:22:39 2020
+import started Tue Jul  7 14:25:47 2020
+import started Tue Jul  7 14:31:08 2020
+import started Tue Jul  7 14:56:31 2020
+import started Sat Jul 18 20:15:26 2020
+import started Wed Jul 29 18:58:02 2020
+import started Wed Jul 29 19:36:02 2020
+import started Wed Jul 29 20:06:51 2020
+import started Wed Jul 29 20:11:36 2020
+import started Wed Jul 29 20:19:11 2020
+import started Wed Jul 29 20:26:30 2020
+import started Wed Jul 29 20:31:45 2020
+import started Wed Jul 29 20:33:52 2020
+import started Wed Jul 29 21:40:51 2020
+skip /Users/leonardo/Downloads/now/Rodrigo Amarante - Cavalo (2013) [FLAC] [CD]
+import started Wed Jul 29 21:54:11 2020
+import started Wed Jul 29 22:02:50 2020
+import started Thu Jul 30 03:18:55 2020
+import started Sat Aug  1 03:12:26 2020
+duplicate-replace /Users/leonardo/Downloads/Yellow Magic Orchestra  - Yellow Magic Orchestra  (1978) 2018 [FLAC]
+import started Sun Aug  2 21:00:14 2020
+import started Sun Aug  2 21:00:29 2020
+skip /Users/leonardo/Downloads/Robert Leiner - Visions Of The Past - 1994 [Apollo; AMB 3925 CD]
+import started Sun Aug  2 21:03:33 2020
+skip /Users/leonardo/Downloads/Silja Sol/På ekte
+import started Sun Aug  2 21:42:49 2020
+skip /Users/leonardo/Downloads/Silja Sol/På ekte
+import started Sun Aug  2 21:50:35 2020
+import started Sun Aug  2 22:30:36 2020
+import started Sun Aug  2 22:36:56 2020
+import started Mon Aug  3 01:13:52 2020
+import started Tue Aug  4 20:04:25 2020
+import started Tue Aug  4 20:17:02 2020
+import started Tue Aug  4 20:18:12 2020
+skip /Users/leonardo/Downloads/import/Robert Leiner
+import started Tue Aug  4 20:22:57 2020
+import started Tue Aug  4 20:32:28 2020
+import started Wed Aug  5 14:35:14 2020
+import started Mon Aug 17 18:02:33 2020
+import started Mon Aug 17 18:11:27 2020
+import started Mon Aug 17 18:42:40 2020
+skip /Users/leonardo/Downloads/Teaxtures and Threads
