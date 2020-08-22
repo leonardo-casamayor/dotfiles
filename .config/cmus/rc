@@ -1,0 +1,96 @@
+#playback settings
+set aaa_mode=album
+set continue=true
+set repeat=false
+set repeat_current=false
+set dsp.coreaudio.sync_sample_rate=true
+set replaygain=disabled
+
+#format
+# now playing
+set format_current= %a - %t | %y %l %=| %{codec} %{bitrate}Kbps | %{rg_track_gain} dB %-4{rg_track_peak} 
+# terminal title
+set format_title=%a - %t 
+#track in library view
+set format_trackwin=%3n. %t%= %{rg_track_gain} dB | %{codec} %{bitrate}Kbps | %d 
+#compilation track in library view
+set format_trackwin_va=%3n. %t (%a)%= %{rg_track_gain} dB | %{codec} %{bitrate}Kbps | %d 
+# album title in artist view
+set format_trackwin_album= %l %= %y | %{albumduration} 
+# show albumartist in treeview
+set format_treewin_artist=%A 
+
+#filters
+#codec filters
+fset flac=filename="*.flac"
+fset mp3=filename="*.mp3"
+#date filters
+fset 60s=date>=1960&date<1970
+fset 70s=date>=1970&date<1980
+fset 80s=date>=1980&date<1990
+fset 90s=date>=1990&date<2000
+fset 00s=date>=2000&date<2010
+fset 10s=date>=2010&date<2020
+#other filters
+fset favorites=filename="*Favorites*"
+
+#bindings
+bind -f library f shell cmus-mark-favorite
+bind -f library F shell cmus-unmark-favorite
+bind -f common u shell cmus-update-library
+bind -f common r source ~/.config/cmus/rc
+
+#zenburn colorscheme
+
+# Directory colors
+set color_win_dir=108
+
+# Normal text
+set color_win_fg=188
+
+# Window background color.
+set color_win_bg=237
+
+# Command line color.
+set color_cmdline_bg=237
+set color_cmdline_fg=108
+
+# Color of error messages displayed on the command line.
+set color_error=lightred
+
+# Color of informational messages displayed on the command line.
+set color_info=lightgreen
+
+# Color of the separator line between windows in view (1).
+set color_separator=246
+
+# Color of window titles (topmost line of the screen).
+set color_win_title_bg=235
+set color_win_title_fg=174
+
+# Status line color.
+set color_statusline_bg=237
+set color_statusline_fg=142
+
+# Color of currently playing track.
+set color_win_cur=172
+
+# Color of the line displaying currently playing track.
+set color_titleline_bg=235
+set color_titleline_fg=144
+
+# Color of the selected row which is also the currently playing track in active window.
+set color_win_cur_sel_bg=235
+set color_win_cur_sel_fg=223
+
+# Color of the selected row which is also the currently playing track in inactive window.
+set color_win_inactive_cur_sel_bg=238
+set color_win_inactive_cur_sel_fg=116
+
+# Color of selected row in active window.
+set color_win_sel_bg=235
+set color_win_sel_fg=223
+
+# Color of selected row in inactive window.
+set color_win_inactive_sel_bg=238
+set color_win_inactive_sel_fg=116

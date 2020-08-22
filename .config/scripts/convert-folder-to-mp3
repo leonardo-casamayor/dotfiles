@@ -1,0 +1,9 @@
+#!/bin/zsh
+
+Folder=$1
+
+for file in $Folder/*;
+    do name="$(echo $file | cut -d '.' -f 1)"
+    ffmpeg -i $file "$name.mp3"
+    rm $file
+done

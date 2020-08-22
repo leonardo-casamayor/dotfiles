@@ -1,0 +1,13 @@
+#!/bin/zsh
+#binded to f in library view
+
+file="$(cmus-remote -C 'echo {}')"
+album="$(beet ls -f '$album' $file)"
+
+if [[ "$file" =~ .*/Favorites/.* ]]; then
+	cmus-remote -C "echo '$album' already marked as favorite"
+else	
+	beet modify -a $album favorite=1 -y
+	cmus-remote -C "echo '$album' marked as favorite"
+	cmus-update-library
+fi

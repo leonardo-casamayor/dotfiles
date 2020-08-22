@@ -1,0 +1,5 @@
+#!/bin/zsh
+#common bind to u
+
+cmus-remote -C "win-update"
+cmus-remote -C "add /Volumes/InternalHD/Music/Library/"
