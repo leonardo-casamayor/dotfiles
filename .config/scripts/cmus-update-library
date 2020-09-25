@@ -1,5 +1,5 @@
 #!/bin/zsh
 #common bind to u
 
-cmus-remote -C "win-update"
-cmus-remote -C "add /Volumes/InternalHD/Music/Library/"
+/usr/bin/cmus-remote -C "win-update"
+/usr/bin/cmus-remote -C "add /home/leonardo/Documents/InternalHD/Music/Library/"
