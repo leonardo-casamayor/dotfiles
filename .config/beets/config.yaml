@@ -1,6 +1,6 @@
 #global options
-directory: /Volumes/InternalHD/Music/Library
-library: /Volumes/InternalHD/Music/Library/Library.db
+directory: /home/leonardo/Documents/InternalHD/Music/Library
+library: /home/leonardo/Documents/InternalHD/Music/Library/Library.db
 
 original_date: yes
 format_item: $artist - $album - $title
@@ -55,9 +55,9 @@ follow:
   auto: yes
 playlist:
     auto: yes
-    playlist_dir: /Volumes/InternalHD/Music/Library/Playlists
+    playlist_dir: /home/leonardo/Documents/InternalHD/Music/Library/Playlists
 smartplaylist:
-  playlist_dir: /Volumes/InternalHD/Music/Library/Playlists
+  playlist_dir: /home/leonardo/Documents/InternalHD/Music/Library/Playlists
   playlists:
 #mood playlists
     - name: 'Moods/Acoustic.m3u'
