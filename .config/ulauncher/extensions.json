@@ -20,11 +20,18 @@
         "last_commit": "dae2cc875b90ae5d625cf177127626e1c8b9719f",
         "last_commit_time": "2020-05-09T21:20:33"
     },
-    "com.github.elken.terminal-runner": {
-        "id": "com.github.elken.terminal-runner",
-        "url": "https://github.com/elken/Terminal-Runner",
-        "updated_at": "2020-10-02T21:54:17.798068",
-        "last_commit": "6807ebe6047462bcce6063c63228eddcb8c6b481",
-        "last_commit_time": "2020-02-22T23:04:04"
+    "com.github.friday.ulauncher-clipboard": {
+        "id": "com.github.friday.ulauncher-clipboard",
+        "url": "https://github.com/friday/ulauncher-clipboard",
+        "updated_at": "2020-10-04T13:13:18.421270",
+        "last_commit": "400723532a0fbb413befbf19f6c45debfe38ad84",
+        "last_commit_time": "2020-01-11T20:30:17"
+    },
+    "com.github.noam09.ulauncher-units": {
+        "id": "com.github.noam09.ulauncher-units",
+        "url": "https://github.com/noam09/ulauncher-units",
+        "updated_at": "2020-10-04T13:14:00.424134",
+        "last_commit": "4f423fa6f5ef1af2a78a0a032810ad524623223f",
+        "last_commit_time": "2020-09-27T16:28:52"
     }
 }
