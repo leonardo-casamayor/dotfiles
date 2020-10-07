@@ -1,44 +1,62 @@
 [
     {
-        "iconPath": ":google",
+        "iconPath": "/home/leonardo/.config/albert/org.albert.extension.websearch/{6a348889-7e8e-4794-aec1-4267dd606543}.png",
+        "name": "Ecosia",
+        "trigger": "e ",
+        "url": "https://www.ecosia.org/search?q=%s"
+    },
+    {
+        "iconPath": "/home/leonardo/.config/albert/org.albert.extension.websearch/{ffff42b3-9814-478a-9b40-2bc1bb3d0dec}.png",
+        "name": "Startpage",
+        "trigger": "s ",
+        "url": "https://www.startpage.com/do/dsearch?query=%s"
+    },
+    {
+        "iconPath": "/home/leonardo/.config/albert/org.albert.extension.websearch/{0c5e7c59-88c0-4db2-9971-6bd6c304d8d8}.png",
+        "name": "Qwant",
+        "trigger": "q ",
+        "url": "https://www.qwant.com/?q=%s"
+    },
+    {
+        "iconPath": "/home/leonardo/.config/albert/org.albert.extension.websearch/{d96d09a2-173c-4a54-b709-afcc630f1fd6}.png",
+        "name": "Mojeek",
+        "trigger": "m ",
+        "url": "https://www.mojeek.com/search?q=%s"
+    },
+    {
+        "iconPath": "/home/leonardo/.config/albert/org.albert.extension.websearch/{b10f04a2-b808-48c7-97cf-f21689dbfed7}.png",
+        "name": "ArchWiki",
+        "trigger": "aw ",
+        "url": "https://wiki.archlinux.org/index.php?&search=%s"
+    },
+    {
+        "iconPath": "/home/leonardo/.config/albert/org.albert.extension.websearch/{b78f7199-f4d3-44b4-af82-c94cbdd75c02}.png",
         "name": "Google",
-        "trigger": "gg ",
+        "trigger": "g ",
         "url": "https://www.google.com/search?q=%s"
     },
     {
-        "iconPath": ":youtube",
+        "iconPath": "/home/leonardo/.config/albert/org.albert.extension.websearch/{819d24ce-3b77-401b-9749-8262ea75c6db}.",
         "name": "Youtube",
         "trigger": "yt ",
         "url": "https://www.youtube.com/results?search_query=%s"
     },
     {
-        "iconPath": ":amazon",
+        "iconPath": "/home/leonardo/.config/albert/org.albert.extension.websearch/{582827e0-eb6c-48b5-bb65-0a59d96b824d}.",
         "name": "Amazon",
-        "trigger": "ama ",
+        "trigger": "a ",
         "url": "http://www.amazon.com/s/?field-keywords=%s"
     },
     {
-        "iconPath": ":ebay",
-        "name": "Ebay",
-        "trigger": "eb ",
-        "url": "http://www.ebay.com/sch/i.html?_nkw=%s"
-    },
-    {
-        "iconPath": ":github",
-        "name": "GitHub",
-        "trigger": "gh ",
-        "url": "https://github.com/search?utf8=✓&q=%s"
+        "iconPath": "/home/leonardo/.config/albert/org.albert.extension.websearch/{58e3838b-2105-4ca5-b784-2b9228965cd9}.png",
+        "name": "Wikipedia",
+        "trigger": "w ",
+        "url": "https://en.wikipedia.org/wiki/%s"
     },
     {
         "iconPath": ":wolfram",
         "name": "Wolfram Alpha",
         "trigger": "=",
         "url": "https://www.wolframalpha.com/input/?i=%s"
-    },
-    {
-        "iconPath": ":duckduckgo",
-        "name": "DuckDuckGo",
-        "trigger": "dd ",
-        "url": "https://duckduckgo.com/?q=%s"
     }
 ]
