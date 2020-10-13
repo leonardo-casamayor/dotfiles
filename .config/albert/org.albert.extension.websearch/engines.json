@@ -24,12 +24,6 @@
         "url": "https://www.mojeek.com/search?q=%s"
     },
     {
-        "iconPath": "/home/leonardo/.config/albert/org.albert.extension.websearch/{b10f04a2-b808-48c7-97cf-f21689dbfed7}.png",
-        "name": "ArchWiki",
-        "trigger": "aw ",
-        "url": "https://wiki.archlinux.org/index.php?&search=%s"
-    },
-    {
         "iconPath": "/home/leonardo/.config/albert/org.albert.extension.websearch/{b78f7199-f4d3-44b4-af82-c94cbdd75c02}.png",
         "name": "Google",
         "trigger": "g ",
