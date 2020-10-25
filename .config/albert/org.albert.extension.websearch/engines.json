@@ -30,9 +30,9 @@
         "url": "https://www.google.com/search?q=%s"
     },
     {
-        "iconPath": "/home/leonardo/.config/albert/org.albert.extension.websearch/{b12792e7-d439-4b2e-9280-445a10ebb099}.",
+        "iconPath": "/home/leonardo/.config/albert/org.albert.extension.websearch/{0df5fc62-650d-446b-ab98-6063a8b2d1ed}.",
         "name": "Youtube",
-        "trigger": "yout ",
+        "trigger": "yt ",
         "url": "https://www.youtube.com/results?search_query=%s"
     },
     {
