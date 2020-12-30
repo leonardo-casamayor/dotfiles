@@ -37,7 +37,8 @@ embedart:
   remove_art_file: yes
 lyrics:
   auto: no
-  fallback: ''
+  fallback: ' '
+  sources: genius #default: google lyricwiki musixmatch genius
 zero:
   fields: comments artist_sort albumartist_sort composer_sort
   update_database: true
@@ -91,9 +92,9 @@ album_fields:
 
 #Path config
 paths:
-  default: %if{$favorite,Favorites,Artists}/%title{$albumartist}/%left{%title{$album},30}%aunique{}/%title{$albumartist} - %left{%title{$album},30}%aunique{} - $disc_and_track %left{%title{$title},30}
-  singleton: %if{$favorite,Favorites,Singletons}/%title{$artist} - %left{%title{$title},30}
-  comp: %if{$favorite,Favorites,Compilations}/%left{%title{$album},30}%aunique{}/$disc_and_track %left{%title{$title},30}
-  albumtype:single: %if{$favorite,Favorites,Artists}/%title{$albumartist}/Singles/%left{%title{$album},30}%aunique{}/%title{$albumartist} - %left{%title{$album},30}%aunique{} - $disc_and_track %left{%title{$title},30}
-  albumtype:ep: %if{$favorite,Favorites,Artists}/%title{$albumartist}/EPs/%left{%title{$album},30}%aunique{}/%title{$albumartist} - %left{%title{$album},30}%aunique{} - $disc_and_track %left{%title{$title},30}
-  albumtype:soundtrack: %if{$favorite,Favourites,Soundtracks}/%left{%title{$album},30}%aunique{}/%left{%title{$album},30}%aunique - $disc_and_track %left{%title{$title},30}
+  default: %asciify{%if{$favorite,Favorites,Artists}/%title{$albumartist}/%left{%title{$album},30}%aunique{}/%title{$albumartist} - %left{%title{$album},30}%aunique{} - $disc_and_track %left{%title{$title},30}}
+  singleton: %asciify{%if{$favorite,Favorites,Singletons}/%title{$artist} - %left{%title{$title},30}}
+  comp: %asciify{%if{$favorite,Favorites,Compilations}/%left{%title{$album},30}%aunique{}/$disc_and_track %left{%title{$title},30}}
+  albumtype:single: %asciify{%if{$favorite,Favorites,Artists}/%title{$albumartist}/Singles/%left{%title{$album},30}%aunique{}/%title{$albumartist} - %left{%title{$album},30}%aunique{} - $disc_and_track %left{%title{$title},30}}
+  albumtype:ep: %asciify{%if{$favorite,Favorites,Artists}/%title{$albumartist}/EPs/%left{%title{$album},30}%aunique{}/%title{$albumartist} - %left{%title{$album},30}%aunique{} - $disc_and_track %left{%title{$title},30}}
+  albumtype:soundtrack: %asciify{%if{$favorite,Favourites,Soundtracks}/%left{%title{$album},30}%aunique{}/%left{%title{$album},30}%aunique - $disc_and_track %left{%title{$title},30}}
