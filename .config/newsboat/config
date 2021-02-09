@@ -35,3 +35,5 @@ bind-key l open
 bind-key h quit
 
 bind-key q hard-quit
+
+macro y set browser "setsid -f celluloid --enqueue"; open-in-browser; set browser "firefox --new-tab %u"
