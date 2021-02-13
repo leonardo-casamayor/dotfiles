@@ -1,6 +1,6 @@
 #####Feeds#####
 
-include feeds
+#auto-reload yes
 
 #####Colors#####
 
@@ -22,18 +22,25 @@ text-width 80
 
 browser "firefox --new-tab %u"
 
-bind-key j down feedlist
-bind-key k up feedlist
-bind-key j next articlelist
-bind-key k prev articlelist
-bind-key J next-feed articlelist
-bind-key K prev-feed articlelist
-bind-key j down article
-bind-key k up article
-
+#vim keys
+bind-key j down
+bind-key k up
 bind-key l open
 bind-key h quit
 
+#arrows
+bind-key RIGHT open
+bind-key LEFT quit
+
 bind-key q hard-quit
 
+#####Macros#####
+
 macro y set browser "setsid -f celluloid --enqueue"; open-in-browser; set browser "firefox --new-tab %u"
+macro d set browser "tilix -a app-new-session -e youtube-dl"; open-in-browser; set browser "firefox --new-tab %u"
+macro p set browser "tilix -a app-new-session -e mpv --vid=no"; one; set browser "firefox --new-tab %u"
+
+#####Podboat####
+
+download-path "~/Documents/InternalHD/Documents/Podcasts/%n"
+download-filename-format "%F-%t.%e"
