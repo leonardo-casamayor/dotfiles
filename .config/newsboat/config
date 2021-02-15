@@ -1,26 +1,37 @@
-#####Feeds#####
+#####General#####
 
-#auto-reload yes
+auto-reload yes
+suppress-first-reload yes
+run-on-startup set-tag
+confirm-mark-all-feeds-read no
+confirm-exit yes
+feed-sort-order firsttag
+toggleitemread-jumps-to-next-unread yes
+wrap-scroll yes
 
-#####Colors#####
-
-
-
-include /usr/share/doc/newsboat/contrib/colorschemes/solarized-dark
-#default:
-color listnormal_unread yellow default
-#color listfocus_unread blue default reverse bold
-#color info default default reverse
-#color listfocus blue default reverse bold
-#color background          default   default
-#color listnormal          default   default
-#color article             default  default 
-
-text-width 80
-
-#####Navigation#####
+include format
 
 browser "firefox --new-tab %u"
+
+#####Macros#####
+
+macro y set browser "setsid -f celluloid --enqueue"; open-in-browser; set browser "firefox --new-tab %u"
+macro d set browser "tilix -a app-new-session -e youtube-dl"; open-in-browser; set browser "firefox --new-tab %u"
+macro p set browser "tilix -a app-new-session -e mpv --vid=no"; one; set browser "firefox --new-tab %u"
+
+#####Podboat####
+
+download-path "~/Documents/InternalHD/Documents/Podcasts/%n"
+download-filename-format "%F-%t.%e"
+
+#####Bookmarking#####
+
+#run ~/.config/scripts/create-access-token.sh to authenticate before using bookmark feature
+bookmark-cmd "~/.config/scripts/send-to-pocket.sh"
+bookmark-autopilot yes
+
+
+#####Key Bindings#####
 
 #vim keys
 bind-key j down
@@ -33,14 +44,3 @@ bind-key RIGHT open
 bind-key LEFT quit
 
 bind-key q hard-quit
-
-#####Macros#####
-
-macro y set browser "setsid -f celluloid --enqueue"; open-in-browser; set browser "firefox --new-tab %u"
-macro d set browser "tilix -a app-new-session -e youtube-dl"; open-in-browser; set browser "firefox --new-tab %u"
-macro p set browser "tilix -a app-new-session -e mpv --vid=no"; one; set browser "firefox --new-tab %u"
-
-#####Podboat####
-
-download-path "~/Documents/InternalHD/Documents/Podcasts/%n"
-download-filename-format "%F-%t.%e"
