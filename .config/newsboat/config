@@ -2,11 +2,12 @@
 
 auto-reload yes
 suppress-first-reload yes
+prepopulate-query-feeds yes
 run-on-startup set-tag
 confirm-mark-all-feeds-read no
 confirm-exit yes
 feed-sort-order firsttag
-toggleitemread-jumps-to-next-unread yes
+toggleitemread-jumps-to-next-unread no
 wrap-scroll yes
 
 include format
@@ -29,7 +30,6 @@ download-filename-format "%F-%t.%e"
 #run ~/.config/scripts/create-access-token.sh to authenticate before using bookmark feature
 bookmark-cmd "~/.config/scripts/send-to-pocket.sh"
 bookmark-autopilot yes
-
 
 #####Key Bindings#####
 
