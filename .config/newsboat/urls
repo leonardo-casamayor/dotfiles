@@ -1,9 +1,7 @@
 #####News#####
 
-"query:Unread Articles:unread = \"yes\" and tags =~ \"News\" " "News"
-#Today query feed 
-"query:Today:age == 0 and tags =~ \"News\"" "News"
-#Tech query feed
+"query:Today:age == 0 and tags # \"News\"" "News"
+
 #World query feed
 
 http://www.aljazeera.com/xml/rss/all.xml "~Al Jazeera" "News"
@@ -15,7 +13,7 @@ http://www.engadget.com/rss.xml "~Engadget" "News"
 http://www.guardian.co.uk/profile/davidmitchell/rss "~The Guardian | David Mitchell" "News"
 http://feeds.guardian.co.uk/theguardian/world/rss "~The Guardian | World News" "News"
 https://feeds.howtogeek.com/HowToGeek "~How-To Geek" "News"
-https://www.infobae.com/feeds/rss/ "~Infobae" "News"
+#https://www.infobae.com/feeds/rss/ "~Infobae" "News"
 https://itsfoss.com/feed "~It's FOSS" "News"
 http://www.jorgeasisdigital.com/feed/ "~Jorge Asis" "News"
 http://www.lemonde.fr/rss/une.xml "~Le Monde" "News"
@@ -30,7 +28,7 @@ http://feeds.wired.com/wired/index "~Wired" "News"
 
 #####Podcasts#####
 
-#Recent query feed
+"query:Recents:unread = \"yes\" and tags # \"Podcasts\"" "Podcasts"
 
 https://feeds.99percentinvisible.org/99percentinvisible "~99% Invisible" "Podcasts"
 https://anchor.fm/s/fd59fbc/podcast/rss "~Alan Watts Podcast" "Podcasts"
@@ -68,7 +66,7 @@ https://www.omnycontent.com/d/playlist/aaea4e69-af51-495e-afc9-a9760146922b/da04
 
 #####Youtube#####
 
-#Recent query feed
+"query:Recents:unread = \"yes\" and tags # \"Youtube\"" "Youtube"
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UCotwjyJnb-4KW7bmsOoLfkg "~Art of the Problem" "Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCNjHgaLpdy1IMNK57pYiKiQ "~AURORA" "Youtube"
@@ -114,6 +112,18 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCZaT_X_mc0BI-djXOlfhqWQ "~V
 https://www.youtube.com/feeds/videos.xml?channel_id=UCLXo7UDZvByw2ixzpQCufnA "~Vox" "Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC6-ymYjG0SU0jUWnWh9ZzEQ "~Wisecrack" "Youtube"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCr613nJgA50o8DUUT00qHvw "~Wulff Den" "Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCyoQK-mZXr2ws4C0nXGCH1w "~Zero Books" "Youtube"
 
 #playlists
 https://www.youtube.com/feeds/videos.xml?playlist_id=PLaD9U6zXNXxQP1vM-6Ohovuz5M1zSdJ8p "~PL:Alan Watts" "Youtube"
+https://www.youtube.com/feeds/videos.xml?playlist_id=PLaD9U6zXNXxSP1WQ3AKpl8J76KsO_PZpg "~PL:WL" "Youtube"
+https://www.youtube.com/feeds/videos.xml?playlist_id=PLaD9U6zXNXxQLHOqUx4ZQ7xLiO1Ztdklp "~PL:Drum Lessons" "Youtube"
+https://www.youtube.com/feeds/videos.xml?playlist_id=PLaD9U6zXNXxSkNNVjA0AJtEc665Sq524y "~PL:Linux" "Youtube"
+https://www.youtube.com/feeds/videos.xml?playlist_id=PLaD9U6zXNXxQeKpgXoEeqU_NEqMeTb5p0 "~PL:Chomsky" "Youtube"
+https://www.youtube.com/feeds/videos.xml?playlist_id=PLaD9U6zXNXxQcXrn9sGgeGp1WkdRxZsev "~PL:Server" "Youtube"
+https://www.youtube.com/feeds/videos.xml?playlist_id=PLaD9U6zXNXxS7rRKxNG4A649ZpDqnaDae "~PL:CS" "Youtube"
+https://www.youtube.com/feeds/videos.xml?playlist_id=PLaD9U6zXNXxQb3IpCCsz8qtrJ6vnBTYjc "~PL:Lectures" "Youtube"
+https://www.youtube.com/feeds/videos.xml?playlist_id=PLaD9U6zXNXxQruaIUMGb68GTvjLm6OGs2 "~PL:Live Music" "Youtube"
+https://www.youtube.com/feeds/videos.xml?playlist_id=PLaD9U6zXNXxR8SqqoQGx5-r01Yppz3uDP "~PL:Documentaries" "Youtube"
+https://www.youtube.com/feeds/videos.xml?playlist_id=PLaD9U6zXNXxTwgorlNP-OJ8ET_m8NKCLF "~PL:Window Managers" "Youtube"
+https://www.youtube.com/feeds/videos.xml?playlist_id=PLaD9U6zXNXxTVN4mXsYJjIHccYBgUxlmC "~PL:Worth Keeping" "Youtube"
