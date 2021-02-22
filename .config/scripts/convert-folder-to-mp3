@@ -1,9 +1,18 @@
 #!/bin/zsh
 
-Folder=$1
+convert_file_to_mp3() {
 
-for file in $Folder/*;
-    do name="$(echo $file | cut -d '.' -f 1)"
-    ffmpeg -i $file "$name.mp3"
-    rm $file
-done
+    file=$1
+    name="$(echo $file | rev | cut -d '.' -f 2- | rev )"
+    ffmpeg -i $file "$name.mp3" && rm $file
+
+}
+
+input="$(tree -if -I '*.mp3' $1)"
+files=( ${(ps/\n/)input} )
+for i in tr '\n' $files
+    do
+    [[ -f $i ]] && convert_file_to_mp3 $i
+ done
+
+
