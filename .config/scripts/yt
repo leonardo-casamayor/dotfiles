@@ -6,7 +6,7 @@
 # yt search query		takes input from the passed arg, prompts using fzf
 # yt -r					takes input and prompts using rofi ($guicmd)
 
-defcmd="fzf"
+defcmd="fzf --reverse"
 guicmd="rofi -dmenu -i" #uncomment next line for dmenu
 guicmd="dmenu -i -l 15"
 promptcmd="$defcmd"
