@@ -1,0 +1,5 @@
+#!/bin/zsh
+#common bind to u
+
+/usr/bin/cmus-remote -C "win-update"
+/usr/bin/cmus-remote -C "add /home/leonardo/music/Library/"

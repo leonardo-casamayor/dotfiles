@@ -1,0 +1,15 @@
+#!/bin/zsh
+
+#Add a figlet title to config file (parameter). Requires figlet and boxes.
+
+File="$(pwd)"/$1
+
+if [[ -a $File ]]; then
+	figlet $1 | boxes -d pound-cmt -i none > aux
+	cat $1 >> aux
+	rm $1
+	mv aux $1
+	chmod 600 $1
+else
+	echo 'File does not exist or is in another folder'
+fi

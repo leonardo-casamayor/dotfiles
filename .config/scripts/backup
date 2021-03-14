@@ -1,0 +1,17 @@
+#!/bin/zsh
+
+BackupVolPath="/Volumes/WD"
+SourcePublicPath="/Volumes/Public"
+SourceLeonardoPath="/Volumes/InternalHD"
+
+if [ -d $BackupVolPath ] && [ -d $SourcePublicPath ] && [ -d $SourceLeonardoPath ]; then
+	osascript -e  'display notification "" with title "Backup job has started"'
+	
+	rsync_tmbackup.sh "$SourcePublicPath/Pictures" "$BackupVolPath/Pictures"
+	rsync_tmbackup.sh "$SourcePublicPath/Videos" "$BackupVolPath/Videos"
+	rsync_tmbackup.sh "$SourceLeonardoPath" "$BackupVolPath/Leonardo"
+
+	osascript -e 'display notification "" with title "Backup is complete"'
+else
+	osascript -e 'tell app "System Events" to display alert "Backup could not be started" message "The needed volumes could not be found"'
+fi
