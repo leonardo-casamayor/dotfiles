@@ -16,9 +16,12 @@ browser "firefox --new-tab %u"
 
 #####Macros#####
 
+#open video in celluloid
 macro y set browser "setsid -f celluloid --enqueue"; open-in-browser; set browser "firefox --new-tab %u"
-macro d set browser "tilix -a app-new-session -e youtube-dl"; open-in-browser; set browser "firefox --new-tab %u"
-macro p set browser "tilix -a app-new-session -e mpv --vid=no"; one; set browser "firefox --new-tab %u"
+#download video
+macro d set browser "kitty @ launch --type=tab youtube-dl"; open-in-browser; set browser "firefox --new-tab %u"
+#open podcast episode in new tab in mpv
+macro p set browser "kitty @ launch --type=tab mpv --vid=no"; one; set browser "firefox --new-tab %u"
 
 #####Podboat####
 
