@@ -9,7 +9,7 @@ set replaygain=track
 colorscheme gruvbox-alt
 #format
 # now playing
-set format_current= %a - %t | %y %l %=| %{codec} %{bitrate}Kbps | %{rg_track_gain} dB %-4{rg_track_peak} 
+set format_current= %a - %t | %y %-30l %=| %{codec} %{bitrate}Kbps | %{rg_track_gain} dB %-4{rg_track_peak} 
 # terminal title
 set format_title=%a - %t 
 #track in library view
