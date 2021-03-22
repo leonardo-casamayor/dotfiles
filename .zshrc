@@ -6,6 +6,8 @@
 # (_)___|___/_| |_|_|  \___|
 #
 
+#####Powerlevel10k#####
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 source ~/.repos/powerlevel10k/powerlevel10k.zsh-theme
@@ -17,12 +19,12 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 
-#Variables
+#####Variables#####
 export PATH="$HOME/.config/scripts:$PATH"
 export EDITOR=vim
 export MANPAGER="sh -c 'col -bx | bat  -l man -p'"
 
-#My custom aliases:
+#####Aliases#####
 #mkdir
 alias md="mkdir -p"
 #lsd
@@ -38,7 +40,10 @@ alias bmod="beet modify"
 #git
 alias gdf="git --git-dir=/home/leonardo/.repos/dotfiles --work-tree=/home/leonardo" 
 
+#####Dumb#####
 colorscript -e 6
+
+#####Compinstall#####
 # The following lines were added by compinstall
 
 zstyle ':completion:*' completer _expand _complete _ignored _correct _approximate
