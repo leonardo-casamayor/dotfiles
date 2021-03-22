@@ -22,13 +22,12 @@ https://www.npr.org/rss/rss.php?id=1002 "~NPR" "News"
 http://www.perfil.com/rss/politica.xml "~Perfil" "News"
 https://phys.org/rss-feed/breaking/ "~Phys.org" "News"
 http://www.sonicscoop.com/feed/ "~Sonic Scoop" "News"
-http://www.space.com/syn/space.xml "~Space" "News"
 http://www.vox.com/rss/index.xml "~Vox" "News"
 http://feeds.wired.com/wired/index "~Wired" "News"
 
 #####Podcasts#####
 
-"query:Recents:unread = \"yes\" and age<7 and tags # \"Podcasts\"" "Podcasts"
+"query:Recents:age<7 and tags # \"Podcasts\"" "Podcasts"
 
 https://feeds.99percentinvisible.org/99percentinvisible "~99% Invisible" "Podcasts"
 https://anchor.fm/s/fd59fbc/podcast/rss "~Alan Watts Podcast" "Podcasts"
