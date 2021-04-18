@@ -19,29 +19,11 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 
-#####Variables#####
-export PATH="$HOME/.config/scripts:$PATH"
-export EDITOR=vim
-export MANPAGER="sh -c 'col -bx | bat  -l man -p'"
-
-#####Aliases#####
-#mkdir
-alias md="mkdir -p"
-#lsd
-alias ls="lsd"
-alias la="lsd -a"
-alias ll="lsd -l"
-alias lla="lsd -la"
-#beets
-alias bimp="beet import"
-alias bimpf="beet import --set favorite=1"
-alias bls="beet ls"
-alias bmod="beet modify"
-#git
-alias gdf="git --git-dir=/home/leonardo/.repos/dotfiles --work-tree=/home/leonardo" 
-
-#####Dumb#####
-colorscript -e 6
+#####Sourcing#####
+#syntax highlighting
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#alias
+source $HOME/.config/zsh/alias.zsh
 
 #####Compinstall#####
 # The following lines were added by compinstall
@@ -51,11 +33,17 @@ zstyle :compinstall filename '/home/leonardo/.zshrc'
 
 autoload -Uz compinit
 compinit
+
 # End of lines added by compinstall
-# Lines configured by zsh-newuser-install
-HISTFILE=~/.histfile
+
+#####Other Options#####
+#history
+HISTFILE=$HOME/.config/zsh
 HISTSIZE=1000
 SAVEHIST=1000
-#setopt autocd notify #Autocorrection
-bindkey -v
-# End of lines configured by zsh-newuser-install
+
+setopt autocd notify #Auto cd
+bindkey -v # vim mode
+
+#####Dumb#####
+colorscript -e 6
