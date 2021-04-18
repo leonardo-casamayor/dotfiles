@@ -38,7 +38,7 @@ compinit
 
 #####Other Options#####
 #history
-HISTFILE=$HOME/.config/zsh
+HISTFILE=$HOME/.config/zsh/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 

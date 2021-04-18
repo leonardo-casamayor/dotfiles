@@ -1,27 +1,36 @@
-bimp='beet import'
-bimpf='beet import --set favorite=1'
-bls='beet ls'
-bmod='beet modify'
-df='df -h'
-du='du -h'
-gdf='git --git-dir=/home/leonardo/.repos/dotfiles --work-tree=/home/leonardo'
-la='lsd -a'
-ll='lsd -l'
-lla='lsd -la'
-ls=lsd
-md='mkdir -p'
-p='sudo pacman'
-pi='sudo pacman -S'
-pr='sudo pacman -Rns'
-ps='pacman -Ss'
-pu='sudo pacman -Syyu'
-run-help=man
-t=tmsu
-tf='tmsu files'
-tm='tmsu mount mp'
-tmv=tmsu-fs-mv
-trm=tmsu-fs-rm
-tt='tmsu tag --tags'
-tu='tmsu umount mp'
-v=vim
-which-command=whence
+#!/bin/zsh
+
+#beets
+alias bimp='beet import'
+alias bimpf='beet import --set favorite=1'
+alias bls='beet ls'
+alias bmod='beet modify'
+#df
+alias df='df -h'
+#du
+alias du='du -h'
+#git
+alias gdf='git --git-dir=/home/leonardo/.repos/dotfiles --work-tree=/home/leonardo'
+#lsd
+alias la='lsd -a'
+alias ll='lsd -l'
+alias lla='lsd -la'
+alias ls=lsd
+#mkdir
+alias md='mkdir -p'
+#pacman
+alias p='sudo pacman'
+alias pi='sudo pacman -S'
+alias pr='sudo pacman -Rns'
+alias ps='pacman -Ss'
+alias pu='sudo pacman -Syyu'
+#tmsu
+alias t=tmsu
+alias tf='tmsu files'
+alias tm='tmsu mount mp'
+alias tmv='tmsu-fs-mv'
+alias trm='tmsu-fs-rm'
+alias tt='tmsu tag --tags'
+alias tu='tmsu umount mp'
+#vim
+alias v=vim
