@@ -1,10 +1,10 @@
 #!/bin/zsh
 
 #beets
-alias bimp='beet import'
-alias bimpf='beet import --set favorite=1'
+alias bi='beet import'
+alias bif='beet import --set favorite=1'
 alias bls='beet ls'
-alias bmod='beet modify'
+alias bm='beet modify'
 #df
 alias df='df -h'
 #du
@@ -27,10 +27,10 @@ alias pu='sudo pacman -Syyu'
 #tmsu
 alias t=tmsu
 alias tf='tmsu files'
-alias tm='tmsu mount mp'
+alias tm='systemctl --user stop rslsync; tmsu mount mp'
 alias tmv='tmsu-fs-mv'
 alias trm='tmsu-fs-rm'
 alias tt='tmsu tag --tags'
-alias tu='tmsu umount mp'
+alias tu='tmsu umount mp; systemctl --user start rslsync'
 #vim
 alias v=vim
