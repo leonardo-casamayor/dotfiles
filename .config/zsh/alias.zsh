@@ -27,10 +27,10 @@ alias pu='sudo pacman -Syyu'
 #tmsu
 alias t=tmsu
 alias tf='tmsu files'
-alias tm='systemctl --user stop rslsync; tmsu mount mp'
+alias tm='tmsu mount mp'
 alias tmv='tmsu-fs-mv'
 alias trm='tmsu-fs-rm'
 alias tt='tmsu tag --tags'
-alias tu='tmsu umount mp; systemctl --user start rslsync'
+alias tu='tmsu umount mp'
 #vim
 alias v=vim
