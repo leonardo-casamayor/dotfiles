@@ -34,3 +34,10 @@ alias tt='tmsu tag --tags'
 alias tu='tmsu umount mp'
 #vim
 alias v=vim
+#yay
+alias y='yay'
+alias yi='yay -S'
+alias yr='yay -Rns'
+alias ys='yay -Ss'
+alias yu='yay -Syyu'
+
