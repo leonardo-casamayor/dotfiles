@@ -4,6 +4,8 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 
+feh --recursive --bg-fill --randomize $HOME/.repos/wallpapers
+
 bspc config border_width         2
 bspc config window_gap          10
 
