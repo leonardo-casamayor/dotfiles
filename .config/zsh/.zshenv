@@ -4,6 +4,7 @@ export BROWSER="firefox"
 export EDITOR="vim"
 export MANPAGER="sh -c 'col -bx | bat  -l man -p'"
 export TERMINAL="kitty"
+export XINITRC="$XDG_CONFIG_HOME"/X11/xinitrc
 
 #xdg
 export XDG_CONFIG_HOME=$HOME/.config
