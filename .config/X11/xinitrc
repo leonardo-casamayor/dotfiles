@@ -49,6 +49,6 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 setxkbmap us &
-setxroot -cursor_name left_ptr
+xsetroot -cursor_name left_ptr
 pgrep -x picom > /dev/null || picom &
 exec bspwm
