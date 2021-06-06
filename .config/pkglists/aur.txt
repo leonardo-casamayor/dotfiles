@@ -1,0 +1,12 @@
+zsh-theme-powerlevel10k-git
+polybar
+gotop
+clyrics
+boxes
+#tmsu-bin
+#ttf-vista-fonts
+#gnome extensions
+#gnome-shell-extension-arch-update
+#gnome-shell-extension-pop-shell
+#gnome-shell-extension-sound-output-device-chooser
+#gnome-shell-extension-espresso-git
