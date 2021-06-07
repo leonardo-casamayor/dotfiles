@@ -1,3 +1,4 @@
+#####Basic pkgs#####
 man-db
 man-pages
 pacman-contrib
@@ -7,6 +8,7 @@ xdg-utils
 cifs-utils
 cups
 hplip
+#####Network#####
 dosfstools
 mtools
 nfs-utils
@@ -16,16 +18,19 @@ rsync
 reflector
 sshfs
 wpa_supplicant
+#####Audio#####
 alsa-utils
 pipewire
 pipewire-alsa
 pipewire-pulse
+#####Silly#####
 cmatrix
 cowsay
 figlet
 lolcat
 neofetch
 sl
+#####Utilities#####
 bat
 lsd
 ripgrep
@@ -37,6 +42,7 @@ iperf3
 tree
 speedtest-cli
 youtube-dl
+#####Terminal#####
 beets
 cmus
 newsboat
@@ -45,6 +51,7 @@ spotifyd
 kitty
 feh
 sxiv
+#####Graphical#####
 firefox
 pcmanfm
 rofi
@@ -53,5 +60,6 @@ syncthing
 xorg-server
 xorg-apps
 xorg-init
+#####Fonts#####
 ttf-nerd-fonts-symbols-mono
 noto-fonts
