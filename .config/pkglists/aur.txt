@@ -1,8 +1,8 @@
 zsh-theme-powerlevel10k-git
 polybar
-gotop
-clyrics
-boxes
+#gotop
+#clyrics
+#boxes
 #tmsu-bin
 #ttf-vista-fonts
 #gnome extensions
