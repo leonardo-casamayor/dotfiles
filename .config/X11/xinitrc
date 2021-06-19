@@ -50,5 +50,4 @@ fi
 
 setxkbmap us &
 xsetroot -cursor_name left_ptr
-pgrep -x picom > /dev/null || picom &
 exec bspwm
