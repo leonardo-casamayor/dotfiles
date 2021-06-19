@@ -1,5 +1,5 @@
 zsh-theme-powerlevel10k-git
-polybar
+#polybar
 #gotop
 #clyrics
 #boxes
