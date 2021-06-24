@@ -11,3 +11,6 @@ export MANPAGER="sh -c 'col -bx | bat  -l man -p'"
 export TERMINAL="kitty"
 export XINITRC="$XDG_CONFIG_HOME"/X11/xinitrc
 export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
+
+#Starship
+export STARSHIP_CONFIG=~/.config/starship/starship.toml
