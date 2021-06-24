@@ -59,7 +59,7 @@ scrot
 syncthing
 xorg-server
 xorg-apps
-xorg-init
+xorg-xinit
 #####Bspwm#####
 bspwm
 sxhkd
