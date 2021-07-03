@@ -4,6 +4,7 @@ set continue=true
 set repeat=false
 set repeat_current=false
 set replaygain=track
+set follow=true
 
 #colorscheme
 colorscheme gruvbox-alt
@@ -40,4 +41,3 @@ bind -f library f shell cmus-mark-favorite
 bind -f library F shell cmus-unmark-favorite
 bind -f common u shell cmus-update-library
 bind -f common r source ~/.config/cmus/rc
-
