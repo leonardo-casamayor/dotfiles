@@ -43,6 +43,7 @@ tree
 speedtest-cli
 youtube-dl
 #####Terminal#####
+starship
 beets
 cmus
 newsboat
@@ -53,6 +54,7 @@ feh
 sxiv
 #####Graphical#####
 firefox
+brave
 pcmanfm
 rofi
 scrot
@@ -64,8 +66,8 @@ xorg-xinit
 bspwm
 sxhkd
 #####Gnome#####
-#gnome
-#gnome-tweaks
+gnome
+gnome-tweaks
 #####Fonts#####
 ttf-nerd-fonts-symbols-mono
 noto-fonts
