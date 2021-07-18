@@ -4,7 +4,7 @@ set continue=true
 set repeat=false
 set repeat_current=false
 set replaygain=track
-set follow=true
+#set follow=true
 
 #colorscheme
 colorscheme gruvbox-alt
