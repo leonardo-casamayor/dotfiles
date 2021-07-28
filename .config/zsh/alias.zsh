@@ -11,13 +11,19 @@ alias df='df -h'
 alias du='du -h'
 #git
 alias gdf='git --git-dir=/home/leonardo/.repos/dotfiles --work-tree=/home/leonardo'
+alias gdfs='git --git-dir=/home/leonardo/.repos/dotfiles --work-tree=/home/leonardo status'
+alias gdfc='git --git-dir=/home/leonardo/.repos/dotfiles --work-tree=/home/leonardo commit -am'
+alias gdfp='git --git-dir=/home/leonardo/.repos/dotfiles --work-tree=/home/leonardo push'
 #lsd
-alias la='lsd -a'
+alias la='lsd -A'
 alias ll='lsd -l'
-alias lla='lsd -la'
+alias lla='lsd -lA'
 alias ls=lsd
 #mkdir
 alias md='mkdir -p'
+#newsboat
+alias nb='newsboat'
+alias nbr='newsboat -r'
 #pacman
 alias p='sudo pacman'
 alias pi='sudo pacman -S'
